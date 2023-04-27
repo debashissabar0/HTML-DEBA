@@ -1,0 +1,66 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <attr name="debashis_borderWidth" format="dimension"/>
+    <attr name="debashis_borderColor" format="color"/>
+    <attr name="debashis_radius" format="dimension"/>
+    <attr name="debashis_backgroundColor" format="color"/>
+    <attr name="debashis_disableColor" format="color"/>
+    <attr name="debashis_focusColor" format="color"/>
+    <attr name="debashis_enabled" format="boolean"/>
+
+    <attr name="debashis_shape" format="integer">
+        <flag name="rectangle" value="101"/>
+        <flag name="oval" value="102"/>
+    </attr>
+
+    <declare-styleable name="StylesButton">
+        <attr name="debashis_borderWidth"/>
+        <attr name="debashis_borderColor"/>
+        <attr name="debashis_radius"/>
+        <attr name="debashis_backgroundColor"/>
+        <attr name="debashis_disableColor"/>
+        <attr name="debashis_focusColor"/>
+        <attr name="debashis_enabled"/>
+        <attr name="debashis_textColor" format="color"/>
+        <attr name="debashis_disabledTextColor" format="color"/>
+        <attr name="debashis_text" format="string"/>
+        <attr name="debashis_textSize" format="dimension"/>
+        <attr name="debashis_textAllCaps" format="reference|boolean"/>
+        <attr name="debashis_textStyle" format="integer">
+            <flag name="normal" value="0"/>
+            <flag name="bold" value="1"/>
+            <flag name="italic" value="2"/>
+        </attr>
+        <attr name="debashis_fontIcon" format="string"/>
+        <attr name="debashis_iconSize" format="dimension"/>
+        <attr name="debashis_iconColor" format="color"/>
+        <attr name="debashis_iconPosition" format="enum">
+            <enum name="left" value="1"/>
+            <enum name="right" value="2"/>
+            <enum name="top" value="3"/>
+            <enum name="bottom" value="4"/>
+        </attr>
+        <attr name="debashis_drawableResource" format="reference"/>
+        <attr name="debashis_iconPadding" format="dimension"/>
+        <attr name="debashis_gravity" format="enum">
+            <enum name="center" value="0"/>
+            <enum name="left" value="1"/>
+            <enum name="right" value="2"/>
+            <enum name="top" value="3"/>
+            <enum name="bottom" value="4"/>
+        </attr>
+    </declare-styleable>
+
+
+    <declare-styleable name="ViewButton">
+        <attr name="debashis_borderWidth"/>
+        <attr name="debashis_borderColor"/>
+        <attr name="debashis_radius"/>
+        <attr name="debashis_backgroundColor"/>
+        <attr name="debashis_disableColor"/>
+        <attr name="debashis_focusColor"/>
+        <attr name="debashis_shape"/>
+        <attr name="debashis_enabled"/>
+    </declare-styleable>
+</resources>

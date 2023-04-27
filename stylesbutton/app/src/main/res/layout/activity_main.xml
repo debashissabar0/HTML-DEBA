@@ -1,0 +1,104 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+	xmlns:android="http://schemas.android.com/apk/res/android"
+	xmlns:app="http://schemas.android.com/apk/res-auto"
+	android:layout_width="match_parent"
+	android:layout_height="match_parent">
+
+	<RelativeLayout
+		android:layout_width="match_parent"
+		android:layout_height="match_parent">
+
+		<LinearLayout
+			android:layout_width="wrap_content"
+			android:layout_height="wrap_content"
+			android:orientation="vertical"
+			android:layout_centerInParent="true">
+
+			<com.debashis.styles.button.StylesButton
+				xmlns:app="http://schemas.android.com/apk/res-auto"
+				android:layout_width="150dp"
+				android:layout_height="45dp"
+				android:padding="10dp"
+                app:debashis_gravity="center"
+				app:debashis_text="Buy Now"
+				app:debashis_borderColor="#FFFFFF"
+				app:debashis_borderWidth="2dp"
+				app:debashis_backgroundColor="#EF3D56"
+				app:debashis_focusColor="#B83CC3"
+				app:debashis_textColor="#FFF"
+				app:debashis_radius="0dp"
+              
+				app:debashis_fontIcon=""/>
+
+			<com.debashis.styles.button.StylesButton
+				xmlns:app="http://schemas.android.com/apk/res-auto"
+				android:layout_width="150dp"
+				android:layout_height="45dp"
+				android:padding="10dp"
+				app:debashis_text="Downlord"
+                app:debashis_gravity="center"
+				app:debashis_borderColor="#FFFFFF"
+				app:debashis_borderWidth="0dp"
+				app:debashis_backgroundColor="#3F51B5"
+				app:debashis_focusColor="#EEEEEE"
+				app:debashis_textColor="#FFF"
+				app:debashis_radius="5dp"
+				app:debashis_fontIcon=""
+				android:layout_marginTop="10dp"/>
+
+			<com.debashis.styles.button.StylesButton
+				xmlns:app="http://schemas.android.com/apk/res-auto"
+				android:layout_width="150dp"
+				android:layout_height="45dp"
+				android:padding="10dp"
+				app:debashis_text="Follow Me"
+				app:debashis_borderColor="#FFFFFF"
+				app:debashis_borderWidth="0dp"
+                app:debashis_gravity="center"
+				app:debashis_backgroundColor="#00C853"
+				app:debashis_focusColor="#EEEEEE"
+				app:debashis_textColor="#FFF"
+				app:debashis_radius="23dp"
+				app:debashis_fontIcon=""
+				android:layout_marginTop="10dp"/>
+
+			<com.debashis.styles.button.StylesButton
+				xmlns:app="http://schemas.android.com/apk/res-auto"
+				android:layout_width="150dp"
+				android:layout_height="45dp"
+				android:padding="10dp"
+				app:debashis_text="Apple"
+				app:debashis_borderColor="#78909C"
+				app:debashis_borderWidth="2dp"
+                app:debashis_gravity="center"
+				app:debashis_backgroundColor="#FFFFFF"
+				app:debashis_focusColor="#E3F2FD"
+                app:debashis_iconColor="#651FFF"
+				app:debashis_textColor="#000000"
+				app:debashis_radius="4dp"
+				app:debashis_fontIcon="&#xf179;"
+				android:layout_marginTop="10dp"/>
+
+            <com.debashis.styles.button.StylesButton
+                xmlns:app="http://schemas.android.com/apk/res-auto"
+                android:layout_width="150dp"
+                android:layout_height="45dp"
+                android:padding="10dp"
+                app:debashis_gravity="center"
+                app:debashis_text="PassKey"
+                app:debashis_borderColor="#FF4081"
+                app:debashis_borderWidth="2dp"
+                app:debashis_backgroundColor="#FFFFFF"
+                app:debashis_focusColor="#E3F2FD"
+                app:debashis_textColor="#FF4081"
+                app:debashis_radius="23dp"
+                app:debashis_fontIcon=""
+				android:layout_marginTop="10dp"/>
+
+		</LinearLayout>
+
+	</RelativeLayout>
+
+</LinearLayout>
+
